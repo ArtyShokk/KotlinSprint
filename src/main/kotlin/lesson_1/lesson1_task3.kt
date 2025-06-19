@@ -1,16 +1,16 @@
 package org.example.lesson_1
 
 fun main() {
-    val yearOfFlight: Int = 1961
-    var hour: UByte = 9U
-    var minute: UByte = 7U
+    val yearOfFlight: String = "1961"
+    var hour: String = "09"
+    var minute: String = "07"
 
     println(yearOfFlight)
     println(hour)
     println(minute)
 
-    hour = 10U
-    minute = 55U
+    hour = "10"
+    minute = "55"
 
     println("Время посадки $hour:$minute")
 }
