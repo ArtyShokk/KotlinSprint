@@ -1,7 +1,8 @@
 package org.example.lesson_2
 
 fun main() {
-    val arithmeticMean: Double = (3 + 4 + 3 + 5) / 4.0
+    val studentNumber: Int = 4
+    val arithmeticMean: Double = (3 + 4 + 3 + 5) / studentNumber.toDouble()
 
     println("Средний балл: %s".format("%.2f".format(arithmeticMean)))
 }
