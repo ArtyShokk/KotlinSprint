@@ -1,7 +1,6 @@
 package org.example.lesson_2
 
 fun main() {
-    // баллы по английскому языку
     val ivanPetrov: Int = 3
     val nikitaSergov: Int = 4
     val sergeyKim: Int = 3
