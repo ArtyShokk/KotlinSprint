@@ -2,6 +2,7 @@ package org.example.lesson_2
 
 fun main() {
     val minutesInHour = 60
+    val hoursInDay = 24
     val hours = 9
     val minutes = 39
     val departureTimeMinutes = hours * minutesInHour + minutes
@@ -9,7 +10,7 @@ fun main() {
 
     val arrivalTimeMinutes = departureTimeMinutes + travelTimeMinutes
 
-    val arrivalHour = (arrivalTimeMinutes / minutesInHour) % 24
+    val arrivalHour = (arrivalTimeMinutes / minutesInHour) % hoursInDay
     val arrivalMinute = arrivalTimeMinutes % minutesInHour
 
     println("Поезд прибудет в %02d:%02d".format(arrivalHour, arrivalMinute))
