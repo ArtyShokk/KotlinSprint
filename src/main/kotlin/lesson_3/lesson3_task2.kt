@@ -11,5 +11,4 @@ fun main() {
     println("$maidenName $name $patronymic, $ageBeforeMarriage")
     println("$surname $name $patronymic, $age")
 
-
 }
